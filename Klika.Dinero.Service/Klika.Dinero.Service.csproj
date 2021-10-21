@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="AWSSDK.SimpleEmail" Version="3.7.0.57" />
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.13.1" />
+    <PackageReference Include="Microsoft.FeatureManagement" Version="2.3.0" />
+    <PackageReference Include="MimeKit" Version="2.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Klika.Dinero.Database\Klika.Dinero.Database.csproj" />
+    <ProjectReference Include="..\Klika.Dinero.Model\Klika.Dinero.Model.csproj" />
+  </ItemGroup>
+
+</Project>

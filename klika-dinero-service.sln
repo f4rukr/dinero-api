@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klika.Dinero.Api", "Klika.Dinero.Api\Klika.Dinero.Api.csproj", "{2C9EB08D-2FAD-49F1-95C1-6466E67A3606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klika.Dinero.Database", "Klika.Dinero.Database\Klika.Dinero.Database.csproj", "{AE6D12CC-4154-4962-A6B9-24CCBA150F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klika.Dinero.Model", "Klika.Dinero.Model\Klika.Dinero.Model.csproj", "{5E3A3798-AC90-48A0-8649-09F47D1E9D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klika.Dinero.Repository", "Klika.Dinero.Repository\Klika.Dinero.Repository.csproj", "{01B5683C-137B-4DF2-98D3-C27ADE53B6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klika.Dinero.Service", "Klika.Dinero.Service\Klika.Dinero.Service.csproj", "{33978DC0-F7EE-4243-BECE-EC8418D99208}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C9EB08D-2FAD-49F1-95C1-6466E67A3606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9EB08D-2FAD-49F1-95C1-6466E67A3606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9EB08D-2FAD-49F1-95C1-6466E67A3606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9EB08D-2FAD-49F1-95C1-6466E67A3606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6D12CC-4154-4962-A6B9-24CCBA150F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6D12CC-4154-4962-A6B9-24CCBA150F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6D12CC-4154-4962-A6B9-24CCBA150F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6D12CC-4154-4962-A6B9-24CCBA150F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3A3798-AC90-48A0-8649-09F47D1E9D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3A3798-AC90-48A0-8649-09F47D1E9D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3A3798-AC90-48A0-8649-09F47D1E9D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3A3798-AC90-48A0-8649-09F47D1E9D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B5683C-137B-4DF2-98D3-C27ADE53B6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B5683C-137B-4DF2-98D3-C27ADE53B6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B5683C-137B-4DF2-98D3-C27ADE53B6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B5683C-137B-4DF2-98D3-C27ADE53B6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33978DC0-F7EE-4243-BECE-EC8418D99208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33978DC0-F7EE-4243-BECE-EC8418D99208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33978DC0-F7EE-4243-BECE-EC8418D99208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33978DC0-F7EE-4243-BECE-EC8418D99208}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {498FC542-3643-46AA-80F0-1A454E8AB689}
+	EndGlobalSection
+EndGlobal
